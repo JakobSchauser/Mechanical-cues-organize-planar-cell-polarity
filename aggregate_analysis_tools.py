@@ -106,7 +106,7 @@ def get_arrows_to_wound(arrow_positions, wound_image):
     return arrows_to_wound_norm#, usable
 
 
-def get_angles_to_wound(fn, should_stretch = False):
+def get_angles_to_wound(fn, should_stretch = False, path = ""):
 
     wound_str = path + 'wounds/'+fn+'_WOUND.png'
 
