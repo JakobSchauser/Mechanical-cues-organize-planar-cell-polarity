@@ -10,7 +10,7 @@ import PIL
 from strain_and_adip_tools.schauser_pycellfit import mesh, utils
     
 import scipy 
-from ..aggregate_analysis_tools import find_cells_touching_the_border
+from aggregate_analysis_tools import find_cells_touching_the_border
 import importlib
 import matplotlib
 
